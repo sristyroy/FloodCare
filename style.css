@@ -1,0 +1,64 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #ffffff;
+    /* White Background */
+    color: #000;
+    /* Default Text Black */
+}
+
+.bg-red {
+    background-color: #dc3545 !important;
+    /* Red Color */
+}
+
+.text-red {
+    color: #dc3545 !important;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-red:hover {
+    background-color: #b02a37;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Navbar Hover Dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px 0;
+}
+footer a {
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #ff4444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}

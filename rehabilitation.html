@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recovery Help - FloodRelief AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="navbar-placeholder"></div>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Rehabilitation & Recovery Assistance</h2>
+        <p class="text-center">Find resources and support for rebuilding after floods.</p>
+
+        <div class="row">
+            <!-- Row 1 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Government Relief Programs</h5>
+                        <p class="card-text">Access food supplies, emergency housing, and financial relief.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#govReliefModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">NGO Support for Housing</h5>
+                        <p class="card-text">Find NGOs offering temporary shelters and long-term housing aid.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ngoSupportModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Medical Assistance for Flood Survivors</h5>
+                        <p class="card-text">Free healthcare services, vaccinations, and medical checkups.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medicalAidModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Aid for Farmers</h5>
+                        <p class="card-text">Low-interest loans and grants for agricultural recovery.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#farmerAidModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Recovery Assistance</h5>
+                        <p class="card-text">Loans and grants to restart businesses post-flood.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#businessRecoveryModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Food & Clean Water Distribution</h5>
+                        <p class="card-text">Find centers distributing food, clean drinking water, and hygiene kits.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#foodDistributionModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals (Popups) -->
+    <div class="modal fade" id="govReliefModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Government Relief Programs</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The government provides:</p>
+                    <ul>
+                        <li>Emergency cash grants</li>
+                        <li>Free medical checkups</li>
+                        <li>Food and clean water supply</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="applygovrelief.html" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ngoSupportModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">NGO Support for Housing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>NGOs provide:</p>
+                    <ul>
+                        <li>Temporary shelters</li>
+                        <li>Construction materials</li>
+                        <li>Rental assistance</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="applyngohousing.html" class="btn btn-success">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="medicalAidModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Medical Assistance</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Find free checkups, vaccinations, and emergency treatment.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="findclinics.html" class="btn btn-success">Find Clinics</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="farmerAidModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Financial Aid for Farmers</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Eligible farmers can receive government grants and low-interest loans.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="applyfarmeraid.html" class="btn btn-success">Apply for Aid</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="businessRecoveryModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Business Recovery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Loans and grants for small businesses to recover after floods.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="applybusinessaid.html" class="btn btn-success">Apply for Support</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="foodDistributionModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Food & Water Distribution</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Locate food distribution centers and clean water sources.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="findfood.html" class="btn btn-success">Find Locations</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
